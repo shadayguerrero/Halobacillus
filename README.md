@@ -37,7 +37,7 @@ Del estudio previo hecho con BigScape, tenemos la siguiente familia donde nuestr
 -   [](##)[Halobacillus_sp._GCF_900240285.prokka-NZ_OESS01000003.region001](##)
 
 ![FAM_00032](svg/FAM_00032.svg)
-<img src="svg/FAM_00032.svg" alt="drawing" width="200"/>
+<img src="svg/FAM_00032.svg" width="1000"/>
 
 
 Seleccionamos el gen sqhC del  Halobacillus_andaensis_OCO35-Chr1.prokka-c00001_gnl_CIA...region006 para usarlo como query para correr CORASON
