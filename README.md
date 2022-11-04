@@ -30,21 +30,22 @@ Al correr bigscape los resultados lo guardamos en
 Con las diversas familias de genes y las redes realizadas con bigscape, procedemos a usar corason, con estas familias de genes que estan conectadas con nuestro genoma de interes.
 
 ### Terpene
-Del estudio previo hecho con BigScape, tenemos la siguiente familia donde nuestro organismos de interes forma parte.
+Del estudio previo hecho con BigScape, tenemos la siguiente familia donde nuestro organismo de interes forma parte.
 [FAM_00032](##)
 
 -   [](##)[Halobacillus_andaensis_OCO35-Chr1.prokka-c00001_gnl_CIA...region006](##)
 -   [](##)[Halobacillus_sp._GCF_900240285.prokka-NZ_OESS01000003.region001](##)
 
 ![FAM_00032](svg/FAM_00032.svg)
+<img src="svg/FAM_00032.svg" alt="drawing" width="200"/>
 
-Seleccionamos el gen sqhC del  Halobacillus_andaensis_OCO35-Chr1.prokka-c00001_gnl_CIA...region006 para usarlo como query.
+
+Seleccionamos el gen sqhC del  Halobacillus_andaensis_OCO35-Chr1.prokka-c00001_gnl_CIA...region006 para usarlo como query para correr CORASON
+
+`../CORASON/corason.pl -q sqhC.query -s 100005 -rast_ids Corason_Rast.IDs`
 
 
-Necesitamos un gen de referencia que este en la familia de los BGC 
-Podemos seleccionar la FAM_00032, donde esta formando un cluster 
-../CORASON/corason.pl -q sqhC.query -s 100005 -rast_ids Corason_Rast.IDs
-
+![CorasonTerpene](svg/terpene.sqhC.svg)
 
 
 ### PKSother
