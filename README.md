@@ -37,16 +37,17 @@ Del estudio previo hecho con BigScape, tenemos la siguiente familia donde nuestr
 -   [](##)[Halobacillus_sp._GCF_900240285.prokka-NZ_OESS01000003.region001](##)
 
 ![FAM_00032](svg/FAM_00032.svg)
-<img src="svg/FAM_00032.svg" width="1000"/>
-
+<img src="svg/FAM_00032.svg" width="1300"/>
+ Headmap de presencia y ausencia 
+ <img src="svg/terpenePresence.png" width="1000"/>
 
 Seleccionamos el gen sqhC del  Halobacillus_andaensis_OCO35-Chr1.prokka-c00001_gnl_CIA...region006 para usarlo como query para correr CORASON
 
 `../CORASON/corason.pl -q sqhC.query -s 100005 -rast_ids Corason_Rast.IDs`
 
 
-![CorasonTerpene](svg/terpene.sqhC.svg)
-
+# ![CorasonTerpene](svg/terpene.sqhC.svg)
+<img src="svg/terpene.sqhC.svg" width="800"/>
 
 ### PKSother
 Agarramos PF02074 
