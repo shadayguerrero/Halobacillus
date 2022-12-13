@@ -1,0 +1,98 @@
+  - - Processing input files - -
+ Including files with one or more of the following strings in their filename: 'cluster', 'region'
+ Skipping files with one or more of the following strings in their filename: 'final'
+
+Importing GenBank files
+
+ Starting with 336 files
+ Files that had its sequence extracted: 336
+
+Creating output directories
+
+Trying threading on 32 cores
+
+Predicting domains using hmmscan
+ Predicting domains for 336 fasta files
+ Finished generating domtable files.
+
+Parsing hmmscan domtable files
+ Processing 336 domtable files
+ New domain sequences to be added; cleaning domains folder
+ Finished generating pfs and pfd files.
+
+Processing domains sequence files
+ Adding sequences to corresponding domains file
+ Reading the ordered list of domains from the pfs files
+ Creating arrower-like figures for each BGC
+  Parsing hmm file for domain information
+    Done
+  Found file with domains colors
+  Reading BGC information and writing SVG
+ Finished creating figures
+
+
+   - - Calculating distance matrix - -
+Performing multiple alignment of domain sequences
+
+ Using hmmalign
+launch_hmmalign took 5.973 seconds
+ Trying to read domain alignments (*.algn files)
+
+Generating distance network files with ALL available input files
+   Writing the complete Annotations file for the complete set
+
+ Working for each BGC class
+  Sorting the input BGCs
+
+
+  Others (164 BGCs)
+   Writing annotation files
+   Calculating all pairwise distances
+generate_network took 0.165 seconds
+   Writing output files
+  Calling Gene Cluster Families
+  Cutoff: 0.3
+Ignored unknown character X (seen 1 times)
+
+  RiPPs (40 BGCs)
+   Writing annotation files
+   Calculating all pairwise distances
+generate_network took 0.054 seconds
+   Writing output files
+  Calling Gene Cluster Families
+  Cutoff: 0.3
+/opt/anaconda3/envs/bigscape/lib/python3.9/site-packages/sklearn/cluster/_affinity_propagation.py:144: UserWarning: All samples have mutually equal similarities. Returning arbitrary cluster center(s).
+  warnings.warn(
+
+  Terpene (81 BGCs)
+   Writing annotation files
+   Calculating all pairwise distances
+generate_network took 0.100 seconds
+   Writing output files
+  Calling Gene Cluster Families
+  Cutoff: 0.3
+/opt/anaconda3/envs/bigscape/lib/python3.9/site-packages/sklearn/cluster/_affinity_propagation.py:144: UserWarning: All samples have mutually equal similarities. Returning arbitrary cluster center(s).
+  warnings.warn(
+
+  PKSother (49 BGCs)
+   Writing annotation files
+   Calculating all pairwise distances
+generate_network took 0.110 seconds
+   Writing output files
+  Calling Gene Cluster Families
+  Cutoff: 0.3
+/opt/anaconda3/envs/bigscape/lib/python3.9/site-packages/sklearn/cluster/_affinity_propagation.py:144: UserWarning: All samples have mutually equal similarities. Returning arbitrary cluster center(s).
+  warnings.warn(
+
+  NRPS (2 BGCs)
+   Writing annotation files
+   Calculating all pairwise distances
+generate_network took 0.043 seconds
+   Writing output files
+  Calling Gene Cluster Families
+  Cutoff: 0.3
+/opt/anaconda3/envs/bigscape/lib/python3.9/site-packages/sklearn/cluster/_affinity_propagation.py:144: UserWarning: All samples have mutually equal similarities. Returning arbitrary cluster center(s).
+  warnings.warn(
+
+
+	Main function took 109.709 s

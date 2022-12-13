@@ -1,0 +1,24 @@
+#                                                                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                                                                 accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                                                                       -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Aminotran_1_2        PF00155.21   363 Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001_ORF1:gid:hisC_1:pid::loc:366:1491:strand:- -            374   5.8e-61  206.7   0.0   1   1   1.5e-64   6.5e-61  206.5   0.0     2   361    31   355    30   357 0.96 Aminotransferase class I and II
+Aminotran_5          PF00266.19   371 Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001_ORF1:gid:hisC_1:pid::loc:366:1491:strand:- -            374   5.4e-09   35.5   0.0   1   1   1.8e-11     8e-08   31.6   0.0    50   177    72   193    70   195 0.88 Aminotransferase class-V
+DegT_DnrJ_EryC1      PF01041.17   361 Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001_ORF1:gid:hisC_1:pid::loc:366:1491:strand:- -            374   6.1e-07   29.1   0.0   1   1     2e-10   9.1e-07   28.5   0.0    28   118    70   160    49   175 0.93 DegT/DnrJ/EryC1/StrS aminotransferase family
+Cys_Met_Meta_PP      PF01053.20   382 Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001_ORF1:gid:hisC_1:pid::loc:366:1491:strand:- -            374   1.2e-06   27.3   0.1   1   1     4e-10   1.8e-06   26.8   0.1    69   176    83   194    64   198 0.73 Cys/Met metabolism PLP-dependent enzyme
+Ectoine_synth        PF06339.12   127 Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001_ORF2:gid:ectC:pid::loc:1873:2266:strand:- -            130   3.5e-61  205.0   0.3   1   1   4.3e-65   3.9e-61  204.9   0.3     1   125     1   125     1   127 0.99 Ectoine synthase
+Cupin_2              PF07883.11    71 Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001_ORF2:gid:ectC:pid::loc:1873:2266:strand:- -            130   2.8e-07   30.2   0.2   1   1   4.6e-11   4.1e-07   29.6   0.2    16    70    54   106    40   107 0.83 Cupin domain
+Aminotran_3          PF00202.21   406 Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001_ORF3:gid:ectB:pid::loc:2262:3552:strand:- -            429   1.2e-81  274.4   0.0   1   1   8.2e-86   1.5e-81  274.2   0.0     8   405    26   417    20   418 0.87 Aminotransferase class-III
+Acetyltransf_1       PF00583.25   117 Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001_ORF4:gid:ectA:pid::loc:3570:4074:strand:- -            167   2.7e-15   56.6   0.0   1   1   4.1e-19   3.7e-15   56.2   0.0    14   114    32   127    18   130 0.87 Acetyltransferase (GNAT) family
+Acetyltransf_7       PF13508.7     76 Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001_ORF4:gid:ectA:pid::loc:3570:4074:strand:- -            167   1.8e-06   28.3   0.0   1   1   2.9e-10   2.6e-06   27.8   0.0     5    55    50   109    39   129 0.69 Acetyltransferase (GNAT) domain
+BCCT                 PF02028.17   485 Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001_ORF5:gid:opuD_3:pid::loc:4595:6110:strand:+ -            504  1.6e-189  630.4  40.8   1   1    1e-193  1.8e-189  630.2  40.8     1   484     7   487     7   488 0.98 BCCT, betaine/carnitine/choline family transporter
+Rhodanese            PF00581.20   107 Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001_ORF7:gid::pid::loc:6781:7081:strand:- -             99     3e-16   59.9   0.0   1   1   1.9e-20   3.3e-16   59.7   0.0     2   105     7    94     6    96 0.94 Rhodanese-like domain
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      bigscape/output/todos2/cache/fasta/Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001.fasta
+# Target file:     /opt/anaconda3/envs/bigscape/Pfam_database/Pfam-A.hmm
+# Option settings: hmmscan --domtblout bigscape/output/todos2/cache/domtable/Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001.domtable --cut_tc --cpu 0 /opt/anaconda3/envs/bigscape/Pfam_database/Pfam-A.hmm bigscape/output/todos2/cache/fasta/Halobacillus_sp._GCF_000786645.prokka-NZ_JRNX01000074.region001.fasta 
+# Current dir:     /home/shaday/Halobacillus
+# Date:            Tue Nov  1 12:08:06 2022
+# [ok]
