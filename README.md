@@ -10,22 +10,20 @@ ls /home/shaday/Halobacillus/gbk/*gbk |wc -l
 $ 49
 ~~~
 ## AntiSMASH
-En esta sección utilizamos los archivos `gbk` previamente anotados y los procesamos con AntiSMASH para determinar los BGC.
-Los resultados de antiSMASh los almacenamos en la carpeta 
-~~~
-/home/shaday/Halobacillus/antismash/
-~~~
-## BigSCAPE
 
-Preparamos la carpeta
-~~~
-/home/shaday/Halobacillus/bigscape/bgcs_gbk
-~~~
-donde almacenamos todas las regiones dectectadas por antiSMASH para cada uno de los genomas.
-Al correr bigscape los resultados lo guardamos en 
-~~~
-/home/shaday/Halobacillus/bigscape/output/todos/
-~~~
+## [Cluster de genes biosinteticos (BGC)](https://github.com/shadayguerrero/Halobacillus/tree/main/antismash) 
+En esta sección utilizamos los archivos `gbk` previamente anotados y los procesamos con **antiSMASH 6.0.0** para determinar los BGC y los resultados fueron almacenados en la carpeta [antismash](https://github.com/shadayguerrero/Halobacillus/tree/main/antismash). 
+
+Además, usamos el script [change-names.sh](https://github.com/shadayguerrero/Halobacillus/blob/main/antismash/change-names.sh), que añade en el nombre los detalles cepa a cada una de las regiones encontradas con antiSMASH.
+
+Encontramos 6 BGC para *Halobacillus andaensis gnl_CIATEJ_OCO35_1*, como podemos observar en la salida de [antismash](https://github.com/shadayguerrero/Halobacillus/blob/main/antismash/Halobacillus_andaensis_OCO35-Chr1.prokka/index.html), falta ver como se relacionan con los otros cluster en los diversos genomas.
+
+## [Redes de similitud de BGC](https://github.com/shadayguerrero/Roseibaca/tree/main/bigscape)
+Para identificar que grupos de BGC se estan formando y en cuales esta presente *Halobacillus andaensis gnl_CIATEJ_OCO35_1* utilizamos **BiG-SCAPE 1.1.2**, los resultados los econtramos en la siguiente carpeta [bigscpae/output](https://github.com/shadayguerrero/Halobacillus/tree/main/bigscape/output).
+
+Una exploracion grafica de los resultados de **BiG-SCAPE** los podemos ver en [bigscpae/output/todos2/index.html](https://github.com/shadayguerrero/Halobacillus/blob/main/bigscape/output/todos2/index.html).
+
+
 ## CORASON
 Con las diversas familias de genes y las redes realizadas con bigscape, procedemos a usar corason, con estas familias de genes que estan conectadas con nuestro genoma de interes.
 
